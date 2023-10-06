@@ -1,0 +1,48 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 48px;
+    font-family: 'Martian Mono', monospace;
+    background-color: #ffffff;
+}
+
+.logo__container{
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    height: 180px;
+}
+
+.logo__title{
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.animated-text {
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typing 2s steps(10, end) 1s 1 normal both,
+             blink-caret 0.5s step-end infinite;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes blink-caret {
+  from, to {
+    border-right: 2px solid transparent;
+  }
+  50% {
+    border-right: 2px solid #333; /* Puedes cambiar el color del cursor aquí */
+  }
+}
