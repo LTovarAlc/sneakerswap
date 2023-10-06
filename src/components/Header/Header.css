@@ -4,7 +4,6 @@
     align-items: center;
     padding: 16px 48px;
     font-family: 'Martian Mono', monospace;
-    background-color: #ffffff;
 }
 
 .logo__container{
@@ -45,4 +44,20 @@
   50% {
     border-right: 2px solid #333; /* Puedes cambiar el color del cursor aquí */
   }
+}
+
+.list{
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+}
+
+.links{
+    cursor: pointer;
+    padding: 12px;
+}
+
+.links:hover{
+    text-decoration: underline;
+    background-color: #e4e4e4;
 }
